@@ -1,0 +1,13 @@
+# секреты — никогда не коммитим
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+tokens.*
+
+# мусор ОС/редакторов
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
