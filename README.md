@@ -34,10 +34,10 @@ npx skills add viktorshab/content-machine-skills --agent codex
 
 - `SKILL.md` — ядро: дух, 5 законов (image-first, один референс лица, frame chaining, стоп-гейт перед тратой, «не правишь промт руками — даёшь заметки»), конвейер из 8 фаз со стоп-гейтами, методслой и границы.
 - `references/01-assets-phase0.md` — ассеты-«паспорта» (лицо/товар/локация/пропсы) и тест связки.
-- `references/02-бриф-референсы-шотлист.md` — креативный бриф → референсы → шотлист.
-- `references/03-промты-под-модель.md` — формула промта (MCSLA), единый style header, отладочные приёмы.
-- `references/04-генерация-склейка-папки.md` — генерация кадров, оживление (frame chaining), склейка (ffmpeg), папки проекта.
-- `references/05-движки-и-каналы.md` — Higgsfield / Replicate / Flux LoRA, выбор модели, безопасность ключа.
+- `references/02-brief-shotlist.md` — креативный бриф → референсы → шотлист.
+- `references/03-prompts.md` — формула промта (MCSLA), единый style header, отладочные приёмы.
+- `references/04-generate-stitch.md` — генерация кадров, оживление (frame chaining), склейка (ffmpeg), папки проекта.
+- `references/05-engines-channels.md` — Higgsfield / Replicate / Flux LoRA, выбор модели, безопасность ключа.
 
 ## Благодарности (источники методики)
 
