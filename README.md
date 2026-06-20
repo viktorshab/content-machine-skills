@@ -32,12 +32,13 @@ npx skills add viktorshab/content-machine-skills --agent codex
 
 ## Как устроен storyboard-builder
 
-- `SKILL.md` — ядро: дух, 5 законов (image-first, один референс лица, frame chaining, стоп-гейт перед тратой, «не правишь промт руками — даёшь заметки»), конвейер из 8 фаз со стоп-гейтами, методслой и границы.
+- `SKILL.md` — ядро: дух, 6 законов (image-first, один референс лица, frame chaining, стоп-гейт перед тратой, «не правишь промт руками — даёшь заметки», одна ось движения), конвейер из 8 фаз со стоп-гейтами, методслой и границы.
 - `references/01-assets-phase0.md` — ассеты-«паспорта» (лицо/товар/локация/пропсы) и тест связки.
 - `references/02-brief-shotlist.md` — креативный бриф → референсы → шотлист.
-- `references/03-prompts.md` — формула промта (MCSLA), единый style header, отладочные приёмы.
+- `references/03-prompts.md` — формула промта (MCSLA), identity-lock лица (7 принципов + готовый промт-шаблон + чек-лист по landmark + частые ошибки), единый style header, отладочные приёмы.
 - `references/04-generate-stitch.md` — генерация кадров, оживление (frame chaining), склейка (ffmpeg), папки проекта.
-- `references/05-engines-channels.md` — Higgsfield / Replicate / Flux LoRA, выбор модели, безопасность ключа.
+- `references/05-engines-channels.md` — Higgsfield / Replicate / Flux LoRA, выбор модели (Kling 3.0 Omni под лицо, nano-banana / gpt-image-2 для кадров), безопасность ключа.
+- `references/06-prompt-library.md` — 7 готовых video-шаблонов под тип кадра (establishing push-in, макро-деталь, close-up лица, посадка, tracking-проезд, low-angle пролёт, финальный отъезд).
 
 ## Благодарности (источники методики)
 
